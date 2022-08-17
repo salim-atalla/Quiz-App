@@ -1,0 +1,110 @@
+[
+    {
+        "category":"Music",
+        "id":"622a1c357cc59eab6f94fed6",
+        "correctAnswer":"Mariah Carey",
+        "incorrectAnswers":["Drake","Nicki Minaj","Madonna"],
+        "question":"Which American singer and songwriter released the song 'All I Want for Christmas Is You'?",
+        "tags":["christmas","music"],
+        "type":"Multiple Choice",
+        "difficulty":"easy",
+        "regions":[]
+    },
+    {
+        "category":"Film & TV",
+        "id":"625740a49da29df7b05f73ed",
+        "correctAnswer":"Chinatown",
+        "incorrectAnswers":["Gran Torino","Up","Gone Girl"],
+        "question":"Name the movie that matches the following plot summary: 'A detective hired to expose an adulterer finds himself caught up in a web of deceit.'",
+        "tags":["film","film_and_tv"],
+        "type":"Multiple Choice",
+        "difficulty":"medium",
+        "regions":[]
+    },
+    {
+        "category":"Society & Culture",
+        "id":"626288af4b176d54800e3dae",
+        "correctAnswer":"Carlsberg",
+        "incorrectAnswers":["Heineken","Fosters","Budweiser"],
+        "question":"'Probably the best lager in the world' is a slogan associated with which beer brand?",
+        "tags":["business","marketing","drink","society_and_culture"],
+        "type":"Multiple Choice",
+        "difficulty":"easy",
+        "regions":[]
+    },
+    {
+        "category":"Film & TV",
+        "id":"625698989da29df7b05f7291",
+        "correctAnswer":"Ned Leeds",
+        "incorrectAnswers":["Loki","Ego","Groot"],
+        "question":"In the Marvel Cinematic Unvierse, which character is played by Jacob Batalon?",
+        "tags":["mcu","film","acting","marvel","comics","film_and_tv"],
+        "type":"Multiple Choice","difficulty":"hard","regions":[]
+    },
+    {
+        "category":"Music",
+        "id":"622a1c387cc59eab6f950b05",
+        "correctAnswer":"Beastie Boys",
+        "incorrectAnswers":["MercyMe","Three 6 Mafia","The Velvet Underground"],
+        "question":"Which American hip hop band released the song 'Sabotage'?",
+        "tags":["music"],
+        "type":"Multiple Choice",
+        "difficulty":"medium",
+        "regions":[]
+    },
+    {
+        "category":"Arts & Literature",
+        "id":"622a1c397cc59eab6f950dda",
+        "correctAnswer":"Francisco Quevedo",
+        "incorrectAnswers":["Miguel de Cervantes","Oscar Wilde","Alphonse Daudet"],
+        "question":"Which author wrote 'Las tres musas últimas castellanas'?",
+        "tags":["literature","arts_and_literature"],
+        "type":"Multiple Choice",
+        "difficulty":"hard",
+        "regions":[]
+    },
+    {
+        "category":"Geography",
+        "id":"62602e2f4b176d54800e3cc8",
+        "correctAnswer":"Tallinn",
+        "incorrectAnswers":["Copenhagen","Paris","Zürich"],
+        "question":"Which of these cities is in Estonia?",
+        "tags":["cities","europe","geography"],
+        "type":"Multiple Choice",
+        "difficulty":"medium",
+        "regions":[]
+    },
+    {
+        "category":"Geography",
+        "id":"623b57d1fd6c701a92118380",
+        "correctAnswer":"USA",
+        "incorrectAnswers":["Israel","England","Australia"],
+        "question":"In which country would you find the Grand Canyon National Park?",
+        "tags":["geography"],
+        "type":"Multiple Choice",
+        "difficulty":"easy",
+        "regions":[]
+    },
+    {
+        "category":"Film & TV",
+        "id":"625740539da29df7b05f73d5",
+        "correctAnswer":"Two soldiers race to deliver a message that will stop 1, 600 men from walking into a deadly trap.",
+        "incorrectAnswers":["The life of a boxer whose temper led him to the top in the ring, but destroyed his life outside of it.","Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw.","A working-class bouncer becomes the driver of an African-American classical pianist."],
+        "question":"What is the plot of the movie 1917?",
+        "tags":["film","film_and_tv"],
+        "type":"Multiple Choice",
+        "difficulty":"medium",
+        "regions":[]
+    },
+    {
+        "category":"Music",
+        "id":"622a1c397cc59eab6f950cf3",
+        "correctAnswer":"The Beatles",
+        "incorrectAnswers":["Deep Purple","Feeder","Uriah Heep"],
+        "question":"Which English rock band released the album 'Magical Mystery Tour'?",
+        "tags":["music"],
+        "type":"Multiple Choice",
+        "difficulty":"easy",
+        "regions":[]
+    }
+]

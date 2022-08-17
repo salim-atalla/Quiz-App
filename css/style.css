@@ -1,0 +1,170 @@
+
+
+:root {
+    --colorOne: #8cc9f8;
+    --colorTwo: #b6dbf8;
+    --colorThree: #d2e7f7;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.start-page,
+.result-page {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: var(--colorOne);
+    border-radius: 70px;
+    border: 1px solid black;
+}
+
+.start-page h1 ,
+.result-page h1 {
+    font-family: fantasy;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 1px white;
+}
+
+.start-page button,
+.result-page button {
+    margin: 10px auto;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-page button:hover,
+.result-page button:hover {
+    outline: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+.content .info {
+    background-color: var(--colorOne);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.content .info .category span {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.q-box {
+    background-color: var(--colorOne);
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.q-box .question p {
+    font-size: 18px;
+}
+
+.q-box .answers {
+    padding: 0px;
+    /* border: 1px solid white; */
+}
+
+.q-box .answers .answer {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: var(--colorTwo);
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.q-box .answers .answer:hover,
+.q-box .answers .answer.selected {
+    background-color: var(--colorThree);
+}
+
+.q-box .answers .answer:not(:last-child) {
+    margin-bottom: 2px;
+}
+
+.q-box .answers .answer label {
+    margin-left: 10px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn button {
+    margin: 20px 0 0;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn button:hover {
+    outline: 1px solid white;
+}
+
+.bullets {
+    background-color: var(--colorOne);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.bullets .spans {
+    display: flex;
+}
+
+.bullets .spans span {
+    background-color: white;
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.bullets .spans span.done {
+    background-color: #007cff;
+    outline: 1px solid #007cff;
+}
